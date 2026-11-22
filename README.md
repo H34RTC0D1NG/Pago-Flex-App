@@ -8,8 +8,8 @@ le recuerda los vencimientos, le deja pagar (pago simulado) y le entrega comprob
 
 | Integrante | GitHub | Rol en el equipo |
 |---|---|---|
-| _(tu nombre)_ | [@Stiven63](https://github.com/Stiven63) | _(completar)_ |
-| _(completar)_ | _(completar)_ | _(completar)_ |
+| Gonzalo Gallardo | [GonzaloGallardo](https://github.com/Stiven63) | Desarrollador Frontend (UI/UX) |
+| Isam Mejias | [H34RTHC0D1NG]https://github.com/H34RTC0D1NG | Desarrollador Backend |
 
 Tablero Trello: _(pegar link del tablero)_ — las tarjetas sugeridas están en [`docs/TRELLO.md`](docs/TRELLO.md).
 
