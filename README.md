@@ -1,4 +1,4 @@
-# PagoFlex 📱✅
+# PagoFlex 
 
 App Android (Kotlin + Jetpack Compose) para el caso **PagoFlex** de DSY1105 – Desarrollo de Aplicaciones Móviles.
 Reúne en un solo lugar los compromisos de pago de una persona (arriendo, crédito, cuota de club, aporte a fundación),
