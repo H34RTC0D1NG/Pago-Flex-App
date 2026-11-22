@@ -70,7 +70,7 @@ La contraseña nunca se guarda como texto: se guarda `SHA-256(rut + ":" + clave)
 3. Para probar la cámara en el emulador, usar uno con cámara virtual.
 4. Pruebas unitarias: `app/src/test/.../ValidacionesTest.kt` (RUT, clave segura, correo, teléfono y fechas).
 
-> Si Gradle avisa que no encuentra la versión de KSP, cambia `ksp` en `gradle/libs.versions.toml` por la que sugiera Android Studio.
+> Si Gradle avisa que no encuentra la versión de KSP, cambia `ksp` en `gradle/libs.versions.toml` por la que sugiera Android Studio. Porque por lo menos a mi me dio error y esa es la solución que por lo menos a mi me funciono, no vaya ser Ejem Ejem.
 
 ## Historial de cambios (fases)
 
