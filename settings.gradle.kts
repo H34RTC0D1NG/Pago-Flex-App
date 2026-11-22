@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MiRegistro"
+rootProject.name = "PagoFlex"
 include(":app")
