@@ -24,3 +24,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "PagoFlex"
 include(":app")
+ 
