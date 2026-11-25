@@ -11,7 +11,7 @@ le recuerda los vencimientos, le deja pagar (pago simulado) y le entrega comprob
 | Gonzalo Gallardo | [GonzaloGallardo](https://github.com/Stiven63) | Desarrollador Frontend (UI/UX) |
 | Isam Mejias | [H34RTHC0D1NG](https://github.com/H34RTC0D1NG) | Desarrollador Backend |
 
-Tablero Trello : [Caso Pago Flex App - Trello](https://trello.com/b/G03wMvG7/app-pago-flex-caso-semestral).
+Tablero Trello : [Caso Pago Flex App - Trello]([https://trello.com/b/G03wMvG7/app-pago-flex-caso-semestral](https://trello.com/b/G03wMvG7/app-pago-flex-caso-semestral)).
 
 ## Cuentas de prueba
 
