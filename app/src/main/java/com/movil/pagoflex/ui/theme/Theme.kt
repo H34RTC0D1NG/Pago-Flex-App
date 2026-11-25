@@ -1,0 +1,82 @@
+package com.movil.pagoflex.ui.theme
+
+import androidx.compose.foundation.isSystemInDarkTheme
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Shapes
+import androidx.compose.material3.darkColorScheme
+import androidx.compose.material3.lightColorScheme
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.unit.dp
+
+private val DarkColorScheme = darkColorScheme(
+    primary = PrimarioClaro,
+    onPrimary = PrimarioOscuro,
+    primaryContainer = PrimarioOscuro,
+    onPrimaryContainer = PrimarioClaro,
+    secondary = Secundario,
+    onSecondary = Blanco,
+    tertiary = Acento,
+    onTertiary = Blanco,
+    background = FondoOscuro,
+    onBackground = TextoClaro,
+    surface = SuperficieOscura,
+    onSurface = TextoClaro
+)
+
+private val LightColorScheme = lightColorScheme(
+    primary = Primario,
+    onPrimary = Blanco,
+    primaryContainer = PrimarioClaro,
+    onPrimaryContainer = PrimarioOscuro,
+    secondary = Secundario,
+    onSecondary = Blanco,
+    tertiary = Acento,
+    onTertiary = Blanco,
+    background = FondoClaro,
+    onBackground = TextoOscuro,
+    surface = Blanco,
+    onSurface = TextoOscuro
+)
+
+private val ContrasteColorScheme = darkColorScheme(
+    primary = ContrastePrimario,
+    onPrimary = ContrasteFondo,
+    primaryContainer = ContrasteSuperficie,
+    onPrimaryContainer = ContrastePrimario,
+    secondary = ContrastePrimario,
+    onSecondary = ContrasteFondo,
+    tertiary = ContrastePrimario,
+    onTertiary = ContrasteFondo,
+    background = ContrasteFondo,
+    onBackground = ContrasteTexto,
+    surface = ContrasteSuperficie,
+    onSurface = ContrasteTexto
+)
+
+private val Formas = Shapes(
+    small = RoundedCornerShape(8.dp),
+    medium = RoundedCornerShape(12.dp),
+    large = RoundedCornerShape(20.dp)
+)
+
+@Composable
+fun PagoFlexTheme(
+    darkTheme: Boolean = isSystemInDarkTheme(),
+    textoGrande: Boolean = false,
+    altoContraste: Boolean = false,
+    content: @Composable () -> Unit
+) {
+    val colorScheme = when {
+        altoContraste -> ContrasteColorScheme
+        darkTheme -> DarkColorScheme
+        else -> LightColorScheme
+    }
+
+    MaterialTheme(
+        colorScheme = colorScheme,
+        typography = if (textoGrande) TypographyGrande else Typography,
+        shapes = Formas,
+        content = content
+    )
+}
